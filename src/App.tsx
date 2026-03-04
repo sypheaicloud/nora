@@ -168,10 +168,6 @@ export default function App() {
           transition={{ duration: 0.8 }}
           className="space-y-8 mt-2 md:mt-4"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] uppercase tracking-widest">
-            <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
-            Premier Event Coordination
-          </div>
           <h1 className="text-7xl md:text-8xl font-sans font-bold text-white/90 leading-[0.9] tracking-tighter">
             Nora Diana <br />
             <span className="font-serif italic font-normal text-white">The Host.</span>
@@ -179,6 +175,10 @@ export default function App() {
           <p className="text-lg text-white/60 max-w-md font-light leading-relaxed">
             From high-energy club takeovers to intimate gala evenings, we curate experiences that linger in memory long after the lights go down.
           </p>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] uppercase tracking-widest">
+            <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+            Premier Event Coordination
+          </div>
           <div className="flex gap-4 pt-4">
             <a href="#booking" className="px-8 py-4 bg-white text-black rounded-full font-bold text-sm flex items-center gap-2 hover:scale-105 transition-transform">
               Book Your Date <ChevronRight className="w-4 h-4" />
