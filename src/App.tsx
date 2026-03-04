@@ -160,13 +160,13 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="about" className="relative z-10 pt-20 pb-32 px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <section id="about" className="relative z-10 pt-10 pb-32 px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="space-y-8"
+          className="space-y-8 mt-4 md:mt-8"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] uppercase tracking-widest">
             <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
